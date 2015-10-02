@@ -7,3 +7,6 @@ How is the staging area different from the working directory and the repository?
 Staging area is different in that it queues the files to be added to the repo. Where as the working directory contains
 files that may or may not be added to repo. Repo contains files that are already committed.
 It allows us to control the files that can be committed to the repo.
+
+How can you use the staging area to make sure you have one commit per logical change?
+We can add only those files that belong to a same logical change to the staging area.
