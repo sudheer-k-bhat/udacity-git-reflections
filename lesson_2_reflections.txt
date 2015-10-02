@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+A hidden directory called .git is created within the repo's root directory which will contain the repo info such as
+history,changes,branches etc. Initing the repo is the first step towards versioning your project. Without it you
+can't start committing your changes.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area is different in that it queues the files to be added to the repo. Where as the working directory contains
+files that may or may not be added to repo. Repo contains files that are already committed.
+It allows us to control the files that can be committed to the repo.
