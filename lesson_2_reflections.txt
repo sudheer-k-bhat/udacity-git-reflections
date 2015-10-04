@@ -14,3 +14,8 @@ We can add only those files that belong to a same logical change to the staging 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Let's say you are working on an experimental feature. Creating a branch in this case means that you are able freely
 add your changes to the exp branch without affecting the stable code in master branch or fixes to master branch.
+
+How do the diagrams help you visualize the branch structure?
+Diagrams make it clear that branches can be non-linear, that you can work on each branch without affecting the
+master branch. It also let's us know that if you checkout a commit instead of a branch, then any changes we make to
+it will be lost unless we create a new branch there of.
