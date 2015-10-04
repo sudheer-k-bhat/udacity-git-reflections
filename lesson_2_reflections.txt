@@ -10,3 +10,7 @@ It allows us to control the files that can be committed to the repo.
 
 How can you use the staging area to make sure you have one commit per logical change?
 We can add only those files that belong to a same logical change to the staging area.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Let's say you are working on an experimental feature. Creating a branch in this case means that you are able freely
+add your changes to the exp branch without affecting the stable code in master branch or fixes to master branch.
