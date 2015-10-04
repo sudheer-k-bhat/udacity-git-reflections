@@ -23,3 +23,7 @@ it will be lost unless we create a new branch there of.
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The result is a commit which contains the history from both the branches & points to the currently checked out
 branch. We represent it in the diagram that way because merge retains the history of both branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging is useful when the changes are in unrelated files/lines. However, manual merging makes sense when
+the same lines of content has changed & manual intervention is required in such a case.
