@@ -19,3 +19,7 @@ How do the diagrams help you visualize the branch structure?
 Diagrams make it clear that branches can be non-linear, that you can work on each branch without affecting the
 master branch. It also let's us know that if you checkout a commit instead of a branch, then any changes we make to
 it will be lost unless we create a new branch there of.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is a commit which contains the history from both the branches & points to the currently checked out
+branch. We represent it in the diagram that way because merge retains the history of both branches.
